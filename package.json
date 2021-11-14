@@ -1,0 +1,39 @@
+{
+  "name": "miko-db",
+  "version": "1.0.0",
+  "description": "A simple database wrapper for CRUD operations",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffmiko/miko-db.git"
+  },
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "pg",
+    "database",
+    "miko"
+  ],
+  "author": "Jeff A. Miko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffmiko/miko-db/issues"
+  },
+  "homepage": "https://github.com/jeffmiko/miko-db#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "mariadb": "^2.5.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3-rc.0",
+    "pg": "^8.7.1"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}
